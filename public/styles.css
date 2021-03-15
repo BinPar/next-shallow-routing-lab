@@ -3,3 +3,11 @@ body {
   color: #f8ba00;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a {
+  color: #ff0;
+}
+
+a:hover {
+  color: #fff;
+}

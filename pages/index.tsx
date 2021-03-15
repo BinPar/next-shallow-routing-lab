@@ -12,7 +12,7 @@ const index: React.FC<IndexProps> = ({title}) => (
       <title>{title}</title>
       <link rel="stylesheet" type="text/css" href="/styles.css" />
     </Head>
-    <h1>{title}</h1>
+    <h1>{title}</h1>    
   </React.Fragment>
 );
 
@@ -26,6 +26,9 @@ export const getServerSideProps: GetServerSideProps<IndexProps>  = async () => {
     props: {
       title: `Hello ${process.env.PROJECT_NAME}!`,
     },
+    redirect: {
+      destination: '/view/1'
+    }
   }
 }
 
