@@ -1,5 +1,3 @@
-# TypeScript Next Boilerplate
+# Ejemplo de Repintado con Shallow Routing
 
-TypeScript Next Boilerplate
-
-> **Note:** All the source typescript files (like components, logic, hooks, etc.) with the sole exception of **pages** and **tests** needs to be included under the **src** folder
+La idea de este ejemplo es verificar el modo de re-utilización de componentes de next en escenarios de cambio de ruta.

@@ -1,7 +1,7 @@
 {
-  "name": "ts-next-boilerplate",
+  "name": "next-shallow-routing-lab",
   "version": "0.1.1",
-  "description": "TypeScript Next Boilerplate",
+  "description": "Ejemplo de Repintado con Shallow Routing",
   "scripts": {
     "dev": "next",
     "build": "next build",
