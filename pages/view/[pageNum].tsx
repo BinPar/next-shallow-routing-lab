@@ -18,7 +18,6 @@ const pageView: React.FC<PageProps> = ({ pageNum }) => {
     <React.Fragment>
       <Head>
         <title>{`Page: ${pageNum}`}</title>
-        <link rel="stylesheet" type="text/css" href="/styles.css" />
       </Head>
       <h1>{`Page: ${pageNum}`}</h1>
       <Link href={`/view/${pageNum - 1}`}>
